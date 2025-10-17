@@ -1,19 +1,79 @@
-import React from 'react';
-import background from './assets/macOS2.jpg';
-import Navbar from './components/Navbar/Navbar';
-import Heroarea from './components/Heroarea/Heroarea';
+import React, { useState, useEffect } from "react";
+import background from "./assets/macOS.jpg";
+import Navbar from "./components/Navbar/Navbar";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Heroarea from "./components/Heroarea/Heroarea";
+import SkillSection from "./components/SkillSection/SkillSection";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Education from "./components/Education/Education";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Projects from "./components/Projects/Projects";
+
+const sections = ["hero", "about", "skills", "projects", "education", "contact"];
 
 const App = () => {
+  const [activeSection, setActiveSection] = useState("hero");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const offsets = sections.map((id) =>
+        document.getElementById(id)?.offsetTop || 0
+      );
+
+      for (let i = offsets.length - 1; i >= 0; i--) {
+        if (scrollPosition + 150 >= offsets[i]) {
+          setActiveSection(sections[i]);
+          break;
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div
-      className="relative h-screen w-full bg-cover bg-center bg-no-repeat bg-fixed"
+      className="relative min-h-screen w-full bg-cover bg-center bg-fixed text-white"
       style={{ backgroundImage: `url(${background})` }}
     >
-      <div className="absolute inset-0 backdrop-blur-lg bg-black/40"></div>
-      <div className="relative flex items-center justify-center h-full p-5">
-        <div className="backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl p-10 text-center w-full h-full">
-        <Navbar></Navbar>
-        <Heroarea></Heroarea>
+      {/* Full-page blur overlay */}
+      <div className="absolute inset-0 backdrop-blur-xl bg-black/40 z-0"></div>
+
+      {/* Main content */}
+      <div className="relative z-10 flex">
+        {/* Sidebar - fixed left */}
+        <Sidebar sections={sections} activeSection={activeSection} />
+
+        {/* Scrollable main content */}
+        <div className="flex-1 min-h-screen overflow-y-auto p-6 md:p-10 space-y-16">
+          <section id="hero">
+            <Heroarea />
+          </section>
+
+          <section id="about">
+            <AboutMe />
+          </section>
+
+          <section id="skills">
+            <SkillSection />
+          </section>
+
+          <section id="projects">
+            <Projects />
+          </section>
+
+          <section id="education">
+            <Education />
+          </section>
+
+          <section id="contact">
+            <Contact />
+          </section>
+
+          <Footer />
         </div>
       </div>
     </div>

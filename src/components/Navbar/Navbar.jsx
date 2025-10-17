@@ -4,7 +4,7 @@ import profile from '../../assets/profile.jpg'
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between items-center '>
+        <div className='flex justify-between items-center border-2'>
             <div className='flex gap-4'>
                 <div className='w-3 h-3 text-red-500'>
                     <FaCircle />
