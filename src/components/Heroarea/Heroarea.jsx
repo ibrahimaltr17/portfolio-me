@@ -17,8 +17,14 @@ const Heroarea = () => {
                     </h1>
                 </div>
 
-                <button className="rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-medium px-8 py-3 shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300">
-                    Download Resume
+                <button className="rounded-3xl bg-blue-600 text-white font-medium px-6 py-3 cursor-pointer w-fit">
+                    <a
+                        href="/public/Resume Ibrahim (Jun Up)(1).pdf"
+                        download
+                        className="block"
+                    >
+                        Download Resume
+                    </a>
                 </button>
             </div>
 
