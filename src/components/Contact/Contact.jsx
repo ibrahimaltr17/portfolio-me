@@ -22,14 +22,14 @@ const Contact = () => {
                 <div className="backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-6 text-center hover:bg-white/10 transition-all duration-300">
                     <FaEnvelope className="text-green-400 text-3xl mx-auto mb-3" />
                     <h3 className="text-lg font-semibold">Email</h3>
-                    <p className="text-gray-300 mt-1">ibrahim@example.com</p>
+                    <p className="text-gray-300 mt-1">ibrahimaltr17@gmail.com</p>
                 </div>
 
                 {/* Phone */}
                 <div className="backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl p-6 text-center hover:bg-white/10 transition-all duration-300">
                     <FaPhoneAlt className="text-green-400 text-3xl mx-auto mb-3" />
                     <h3 className="text-lg font-semibold">Phone</h3>
-                    <p className="text-gray-300 mt-1">+880 1700 000 000</p>
+                    <p className="text-gray-300 mt-1">+8801759520547</p>
                 </div>
 
                 {/* Location */}
@@ -51,7 +51,7 @@ const Contact = () => {
                     <FaGithub />
                 </a>
                 <a
-                    href="https://linkedin.com/in/ibrahimaltr17"
+                    href="https://bd.linkedin.com/in/md-kamruzzaman-ibrahim-935405210"
                     target="_blank"
                     rel="noreferrer"
                     className="text-white/80 hover:text-green-400 transition-all duration-300"
@@ -59,7 +59,7 @@ const Contact = () => {
                     <FaLinkedin />
                 </a>
                 <a
-                    href="https://facebook.com/ibrahimaltr17"
+                    href="https://www.facebook.com/ibrahima.ibu.123236/"
                     target="_blank"
                     rel="noreferrer"
                     className="text-white/80 hover:text-green-400 transition-all duration-300"

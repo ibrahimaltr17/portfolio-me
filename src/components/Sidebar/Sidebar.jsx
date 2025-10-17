@@ -31,7 +31,7 @@ const Sidebar = ({ sections, activeSection }) => {
             <FaGithub size={18} />
           </a>
           <a
-            href="https://linkedin.com/in/ibrahimaltr17"
+            href="https://bd.linkedin.com/in/md-kamruzzaman-ibrahim-935405210"
             target="_blank"
             rel="noreferrer"
             className="hover:text-green-400 transition-all duration-300"
@@ -39,7 +39,7 @@ const Sidebar = ({ sections, activeSection }) => {
             <FaLinkedin size={18} />
           </a>
           <a
-            href="https://facebook.com/ibrahimaltr17"
+            href="https://www.facebook.com/ibrahima.ibu.123236/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-green-400 transition-all duration-300"

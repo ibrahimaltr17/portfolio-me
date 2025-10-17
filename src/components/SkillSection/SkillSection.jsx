@@ -4,7 +4,7 @@ const SkillSection = () => {
   const skills = [
     {
       title: "Languages",
-      items: ["HTML", "CSS", "JavaScript", "TypeScript", "C"],
+      items: ["HTML", "CSS", "JavaScript"],
     },
     {
       title: "Frameworks & Libraries",

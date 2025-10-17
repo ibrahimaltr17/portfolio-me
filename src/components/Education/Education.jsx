@@ -9,13 +9,7 @@ const Education = () => {
             details:
                 "Focused on front-end technologies, web architecture, and UI/UX design. Built multiple full-stack web applications as academic projects.",
         },
-        {
-            degree: "Higher Secondary Certificate (HSC)",
-            institute: "Dhaka City College",
-            year: "2017 - 2019",
-            details:
-                "Completed HSC in Science background, learning fundamentals of programming and logical problem-solving.",
-        },
+        
     ];
 
     return (
