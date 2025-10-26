@@ -37,7 +37,7 @@ const AboutMe = () => {
                         and <span className="text-green-400">MongoDB</span>.
                     </p>
                     <p className="text-gray-300 leading-relaxed">
-                        I enjoy turning complex ideas into simple, user-friendly digital solutions —
+                        I enjoy turning complex ideas into simple, user-friendly digital solutions
                         with a focus on clean code, responsive design, and performance optimization.
                         I’m constantly exploring new technologies to stay updated in this ever-evolving web ecosystem.
                     </p>

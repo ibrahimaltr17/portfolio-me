@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router";
 import projects from "../../../JSON/projects.json";
-import background from "../../../assets/macOS.jpg";
+import background from "../../../assets/wallpaperflare.com_wallpaper.jpg";
 
 const ProjectDetails = () => {
   const { id } = useParams();

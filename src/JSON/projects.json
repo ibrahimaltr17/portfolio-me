@@ -2,80 +2,102 @@
     {
         "id": 1,
         "title": "Scholar Sphere – Scholarship Management Platform",
-        "overview": "Scholar Sphere is a comprehensive web application designed to streamline the scholarship application process for students.",
+        "overview": "Scholar Sphere is a comprehensive Scholarship Management System designed to help students easily discover and apply for scholarships offered by universities around the world. The platform simplifies the scholarship search and application process while providing administrative tools for managing users, scholarships, and applications efficiently.",
         "functionality": [
-            "Browse available scholarships",
-            "Submit scholarship applications",
-            "Track application status",
-            "Admin can manage listings and review applications"
+            "Search and filter scholarships by country, university, degree level, or eligibility criteria",
+            "Apply directly for scholarships through the platform",
+            "View applied scholarships and track application status via User Dashboard",
+            "Admins manage users, scholarships, and universities via Admin Dashboard",
+            "Moderators review and approve/reject scholarship applications",
+            "Role management to promote/demote users between regular and moderator",
+            "CRUD operations for scholarships, universities, and applications",
+            "Optional analytics & reports for application trends and statistics"
         ],
         "keyFeatures": [
-            "Fully responsive and user-friendly",
-            "Authentication with Firebase",
-            "Real-time application tracking",
-            "Role-based admin and user access"
+            "Scholarship Search System",
+            "Scholarship Application Portal",
+            "User Dashboard",
+            "Admin Dashboard",
+            "Role Management",
+            "Data Management (CRUD)",
+            "Analytics & Reports (optional)"
         ],
         "tech": [
-            "React",
-            "Firebase",
-            "TailwindCSS",
-            "Node.js"
+            "React.js",
+            "Tailwind CSS",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Firebase/JWT",
+            "Vercel",
+            "Stripe"
         ],
-        "github": "https://github.com/yourusername/scholar-sphere",
+        "github": "https://github.com/ibrahimaltr17/Scholar-Sphere-client",
         "live": "https://blood-bridge-4acbe.web.app/",
-        "image": "/images/scholar-sphere.png"
+        "image": "https://i.ibb.co.com/8DDR49Xp/full-page-snap-screenshot-3.png"
     },
     {
         "id": 2,
         "title": "Feast Forward – Food Sharing Platform",
-        "overview": "A social-driven platform enabling users to share surplus food with those in need.",
+        "overview": "Feast Forward is a Food Sharing Website built to reduce food waste and promote community sharing. The platform allows users to share surplus food, request available food, and manage food requests through an intuitive and user-friendly interface.",
         "functionality": [
-            "Post and claim food donations",
-            "Manage your donations",
-            "See community impact",
-            "Interactive notifications and status updates"
+            "Add food by providing details such as name, image, quantity, and pickup location",
+            "Update or delete shared food items",
+            "Browse all available foods for request",
+            "Request food directly through the platform",
+            "Track, update, or cancel food requests",
+            "Optional dashboard for managing shared and requested foods"
         ],
         "keyFeatures": [
-            "Intuitive and responsive UI",
-            "Firebase authentication and database",
-            "Real-time updates for donations",
-            "Community-focused sustainability features"
+            "Add Food",
+            "Manage Foods",
+            "Browse Available Foods",
+            "Request Food",
+            "Manage Requests",
+            "Dashboard (optional)"
         ],
         "tech": [
-            "React",
-            "Firebase",
-            "TailwindCSS",
-            "Axios"
+            "React.js",
+            "Tailwind CSS",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Firebase/JWT",
+            "Vercel"
         ],
-        "github": "https://github.com/yourusername/feast-forward",
+        "github": "https://github.com/ibrahimaltr17/Feast-Forward-client",
         "live": "https://feast-forward.web.app/",
-        "image": "/images/feast-forward.png"
+        "image": "https://i.ibb.co.com/jds3v3n/full-page-snap-screenshot-4.png"
     },
     {
         "id": 3,
         "title": "LeafLog – Plant Care Tracker",
-        "overview": "A full-stack, plant management web app to track watering, fertilizing, and health routines.",
+        "overview": "LeafLog is a Plant Care Tracker Web Application designed to help plant enthusiasts log, track, and manage the daily care of their houseplants. The platform offers personalized plant management features that make it easy for users to maintain healthy plants through consistent care routines.",
         "functionality": [
-            "Add and manage your plants",
-            "Track watering and fertilizing schedules",
-            "Health tracking for each plant",
-            "Personalized dashboard and reminders"
+            "Add new plants with details like name, species, and photo",
+            "Log watering, fertilizing, and repotting dates for each plant",
+            "Set reminders for upcoming plant care tasks",
+            "Track plant growth and overall health with logs and updates",
+            "Secure user login system to manage personalized plant data",
+            "Dashboard showing all plants and upcoming care tasks"
         ],
         "keyFeatures": [
-            "Dark/Light mode support",
-            "Creative plant-themed design",
-            "User authentication and dashboard",
-            "Sorting and filtering of plants"
+            "Add & Manage Plants",
+            "Track Care Tasks",
+            "Set Reminders",
+            "Health Monitoring",
+            "User Authentication"
         ],
         "tech": [
-            "React",
+            "React.js",
+            "Tailwind CSS",
             "Node.js",
+            "Express.js",
             "MongoDB",
-            "JWT",
-            "TailwindCSS"
+            "Vercel"
         ],
-        "github": "https://github.com/yourusername/leaflog",
+        "github": "https://github.com/ibrahimaltr17/leaf-log-client",
         "live": "https://leaf-log-dc82b.web.app/",
-        "image": "/images/leaflog.png"
+        "image": "https://i.ibb.co.com/0y4nvjDK/full-page-snap-screenshot.jpg"
     }
 ]

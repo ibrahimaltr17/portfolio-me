@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import background from "./assets/macOS.jpg";
+import background from "./assets/wallpaperflare.com_wallpaper.jpg";
 import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Heroarea from "./components/Heroarea/Heroarea";

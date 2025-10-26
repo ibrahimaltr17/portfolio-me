@@ -31,7 +31,7 @@ const Sidebar = ({ sections, activeSection }) => {
             <FaGithub size={18} />
           </a>
           <a
-            href="https://bd.linkedin.com/in/md-kamruzzaman-ibrahim-935405210"
+            href="https://www.linkedin.com/in/kamruzzaman-ibrahim/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-green-400 transition-all duration-300"

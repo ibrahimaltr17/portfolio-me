@@ -34,7 +34,7 @@ const Heroarea = () => {
                         View Projects
                     </a>
                     <a
-                        href="/Resume_Ibrahim.pdf"
+                        href="/public/Kamruzzaman Ibrahim Resume.pdf"
                         download
                         className="rounded-full border border-green-500 hover:bg-green-500/20 text-green-400 font-semibold px-8 py-3 shadow-md transition-all duration-300"
                     >
