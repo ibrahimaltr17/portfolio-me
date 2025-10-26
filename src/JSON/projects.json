@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "title": "Scholar Sphere – Scholarship Management Platform",
+        "overview": "Scholar Sphere is a comprehensive web application designed to streamline the scholarship application process for students.",
+        "functionality": [
+            "Browse available scholarships",
+            "Submit scholarship applications",
+            "Track application status",
+            "Admin can manage listings and review applications"
+        ],
+        "keyFeatures": [
+            "Fully responsive and user-friendly",
+            "Authentication with Firebase",
+            "Real-time application tracking",
+            "Role-based admin and user access"
+        ],
+        "tech": [
+            "React",
+            "Firebase",
+            "TailwindCSS",
+            "Node.js"
+        ],
+        "github": "https://github.com/yourusername/scholar-sphere",
+        "live": "https://blood-bridge-4acbe.web.app/",
+        "image": "/images/scholar-sphere.png"
+    },
+    {
+        "id": 2,
+        "title": "Feast Forward – Food Sharing Platform",
+        "overview": "A social-driven platform enabling users to share surplus food with those in need.",
+        "functionality": [
+            "Post and claim food donations",
+            "Manage your donations",
+            "See community impact",
+            "Interactive notifications and status updates"
+        ],
+        "keyFeatures": [
+            "Intuitive and responsive UI",
+            "Firebase authentication and database",
+            "Real-time updates for donations",
+            "Community-focused sustainability features"
+        ],
+        "tech": [
+            "React",
+            "Firebase",
+            "TailwindCSS",
+            "Axios"
+        ],
+        "github": "https://github.com/yourusername/feast-forward",
+        "live": "https://feast-forward.web.app/",
+        "image": "/images/feast-forward.png"
+    },
+    {
+        "id": 3,
+        "title": "LeafLog – Plant Care Tracker",
+        "overview": "A full-stack, plant management web app to track watering, fertilizing, and health routines.",
+        "functionality": [
+            "Add and manage your plants",
+            "Track watering and fertilizing schedules",
+            "Health tracking for each plant",
+            "Personalized dashboard and reminders"
+        ],
+        "keyFeatures": [
+            "Dark/Light mode support",
+            "Creative plant-themed design",
+            "User authentication and dashboard",
+            "Sorting and filtering of plants"
+        ],
+        "tech": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "JWT",
+            "TailwindCSS"
+        ],
+        "github": "https://github.com/yourusername/leaflog",
+        "live": "https://leaf-log-dc82b.web.app/",
+        "image": "/images/leaflog.png"
+    }
+]

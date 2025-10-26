@@ -29,16 +29,17 @@ const AboutMe = () => {
                         Hi, I’m Ibrahim 👋
                     </h3>
                     <p className="text-gray-200 leading-relaxed">
-                        I’m a passionate <span className="text-green-400">Front-End Web Developer</span>
-                        focused on crafting responsive, elegant, and high-performance websites.
-                        I love transforming creative ideas into digital experiences using
-                        modern tools like <span className="text-green-400">React</span> and
-                        <span className="text-green-400"> Tailwind CSS</span>.
+                        I’m a passionate <span className="text-green-400">MERN Stack Developer</span>,  
+                         who loves building full-stack web applications that blend creativity, functionality,
+                        and scalability. My work revolves around creating efficient front-end interfaces
+                        with <span className="text-green-400">React</span> and robust back-end systems using
+                        <span className="text-green-400"> Node.js</span>, <span className="text-green-400">Express</span>,
+                        and <span className="text-green-400">MongoDB</span>.
                     </p>
                     <p className="text-gray-300 leading-relaxed">
-                        My journey started with curiosity about how web interfaces come to life —
-                        and today, I’m continuously learning, building, and refining my skills to
-                        deliver meaningful user experiences.
+                        I enjoy turning complex ideas into simple, user-friendly digital solutions —
+                        with a focus on clean code, responsive design, and performance optimization.
+                        I’m constantly exploring new technologies to stay updated in this ever-evolving web ecosystem.
                     </p>
                 </div>
             </div>
